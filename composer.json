@@ -1,9 +1,18 @@
 {
     "name": "pdo/connecter",
-    "type": "database",
+    "type": "library",
     "description": "Secure PDO Connection plugin for custom websites",
     "keywords": ["PDO connecter", "framework", "PDO", "PHP", "website" ],
+    "homepage": "https://github.com/Seldaek/monolog",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfan Ghuorio",
+            "email": "IrfanGhuori@yandex.com",
+            "homepage": "https://github.com/IrfanGhuori",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^8.1"
 

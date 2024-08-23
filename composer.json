@@ -1,0 +1,24 @@
+{
+    "name": "pdo/connecter",
+    "type": "database",
+    "description": "Secure PDO Connection plugin for custom websites",
+    "keywords": ["PDO connecter", "framework", "PDO", "PHP", "website" ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+
+},"autoload": {
+    "classmap": [
+         "Src\\"
+    ]
+},
+"repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/IrfanGhuori/OPD-and-SessionManager"
+        }
+    ]
+
+}
+
+

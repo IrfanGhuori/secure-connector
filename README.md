@@ -12,7 +12,20 @@ PDO is a database access layer that provides a fast and consistent interface for
 
 ## PDO Configuration
 
+
 ### Installation 
+------------
+Important if you're installing from the composer 
+you have to modify the ENV file path it will 
+```php
+function : name _CreateVars()
+Location : vendor\pdo\connecter\src\helper.php
+Line Number: 56
+Modify : self::$Path = "/.env"; | to -> self::$Path = "vendor/pdo/connecter/src/.env";
+```
+and if you're cloning the GitHub repository and use the same structure, Please share your feedback  
+
+
 ```php
 require_once("vendor/autoload.php");
 use Src\Connect_me;
@@ -27,7 +40,7 @@ echo $row->user_code;
 
 
  ## Secure Session Package
-If you're on shared host and use sessions for storing sensitive data, 
+If you're on a shared host and use sessions for storing sensitive data, 
 it's a good idea to store session files in your custom location and encrypt them.
 
 ### Installation
@@ -50,7 +63,7 @@ $session->set('name', 'John');
 | Session by Chaining method | $session->set('name', 'Irfan')->set('age', 19)->set('city', 'Baghdad'); |
 | session by providing an array | $session->set(['name' => 'Irfan', 'location' => [ 'country' => 'iraq' ]]); |
 | Get one session by key | $sesssion->get($key); // will use the default prefix |
-| Get All Session by spicefic prefix | $session->fromPrefix('test'); Returns an array of all session that have a "test" prefix|
+| Get All Session by specific prefix | $session->fromPrefix('test'); Returns an array of all sessions that have a "test" prefix|
 | Check if the session exists | Session::has($key); |
 | Remove Session by key        | $sesssion->remove($key); |
 | by chaining method |  $session->remove('name')->remove('age')->remove('location'); |

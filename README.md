@@ -14,8 +14,7 @@ PDO is a database access layer that provides a fast and consistent interface for
 
 
 ### Installation 
-------------
-### Installation:  composer require pdo/connecter-with-session-manager
+▶️ composer require pdo/connecter-with-session-manager
 
 Important if you're installing from the composer 
 you have to modify the ENV file path it will 

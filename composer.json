@@ -1,5 +1,5 @@
 {
-    "name": "pdo/connecter",
+    "name": "pdo/connecter-with-session-manager",
     "type": "library",
     "description": "Secure PDO Connection plugin for custom websites",
     "keywords": ["PDO connecter", "framework", "PDO", "PHP", "website" ],

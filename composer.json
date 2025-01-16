@@ -24,7 +24,7 @@
 "repositories": [
         {
             "type": "composer",
-            "url": "https://github.com/IrfanGhuori/OPD-and-SessionManager"
+            "url": "https://packagist.org/packages/pdo/secure-connector"
         }
     ]
 

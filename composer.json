@@ -1,0 +1,33 @@
+{
+    "name": "pdo/connect-to-database",
+    "type": "library",
+    "description": "Secure PDO Connection plugin for custom websites",
+    "keywords": ["PDO connecter", "framework", "PDO", "PHP", "website" ],
+    "homepage": "https://github.com/IrfanGhuori",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfan Ghuorio",
+            "email": "IrfanGhuori@yandex.com",
+            "homepage": "https://github.com/IrfanGhuori",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+
+},"autoload": {
+    "classmap": [
+         "Src\\"
+    ]
+},
+"repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/IrfanGhuori/OPD-and-SessionManager"
+        }
+    ]
+
+}
+
+

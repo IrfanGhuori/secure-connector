@@ -1,5 +1,5 @@
 {
-    "name": "pdo/connect-to-database",
+    "name": "pdo/secure-connector",
     "type": "library",
     "description": "Secure PDO Connection plugin for custom websites",
     "keywords": ["PDO connecter", "framework", "PDO", "PHP", "website" ],

@@ -10,13 +10,15 @@
 PDO is a database access layer that provides a fast and consistent interface for accessing and managing databases in PHP applications. Every DBMS has a specific PDO driver that must be installed when you are using PDO in PHP applications.
 -: I'm highly experienced in large-size web portals:-
 
+## Old version PHP error 
+Tips: If you use an old PHP version like 7 or 8, edit your PHP version in 
+composer.json and composer.lock and enter the command "composer dump-autoload -o".
+
 ## PDO Configuration
-
-
 ### Installation 
 ▶️ composer require pdo/secure-connector
 
-Important if you're installing from the composer 
+Important: if you're installing from the composer 
 you have to modify the ENV file path it will 
 ```php
 function : name _CreateVars()
